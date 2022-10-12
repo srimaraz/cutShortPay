@@ -12,12 +12,14 @@ const styles = StyleSheet.create({
   bottomMainContainer: {
     position: 'absolute',
     bottom: 0,
-    height: 220,
+    height: '30%',
     width: '85%',
     alignSelf: 'flex-start',
+    justifyContent: 'space-evenly',
     borderTopRightRadius: 70,
     backgroundColor: COLORS.darkBlue3,
     paddingLeft: 30,
+    paddingBottom: 20,
   },
   paginationMarkersContainer: {
     flexDirection: 'row',
@@ -46,12 +48,8 @@ const styles = StyleSheet.create({
   },
   vector35: {
     position: 'absolute',
+    left: -60,
     bottom: '30%',
-  },
-  vector33: {
-    position: 'absolute',
-    top: 30,
-    flex: 1,
   },
   rectangle257: {
     position: 'absolute',
@@ -62,6 +60,12 @@ const styles = StyleSheet.create({
     position: 'absolute',
     right: 0,
     top: 30,
+  },
+  vector33: {
+    position: 'absolute',
+    left: 0,
+    top: 30,
+    flex: 1,
   },
   vector34: {
     position: 'absolute',

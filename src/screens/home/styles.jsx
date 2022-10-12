@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
   },
   transactionModal: {
-    height: '55%',
+    height: 450,
     width: deviceWidth,
     alignSelf: 'center',
     backgroundColor: COLORS.modalBlue,

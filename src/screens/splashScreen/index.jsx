@@ -13,7 +13,7 @@ const SplashScreen = ({navigation}) => {
 
   return (
     <View style={styles.splashMainContainer}>
-      <SVGsList.Vector35 width="100%" style={styles.vector35} />
+      <SVGsList.Vector35 width="120%" style={styles.vector35} />
       <SVGsList.Vector33 width="100%" style={styles.vector33} />
       <SVGsList.Rectangle257 style={styles.rectangle257} />
       <SVGsList.Polygon1 style={styles.polygon1} />

@@ -1,0 +1,140 @@
+import {Dimensions, StyleSheet} from 'react-native';
+import {COLORS} from '../../utils/colors';
+
+const deviceWidth = Dimensions.get('window').width;
+const styles = StyleSheet.create({
+  mainContainer: {
+    backgroundColor: COLORS.darkBlueBG,
+    height: '100%',
+    width: '100%',
+    paddingHorizontal: 15,
+  },
+  buttonsContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 40,
+  },
+  accountBalanceText: {
+    fontSize: 40,
+    color: COLORS.textWhite,
+    fontWeight: 'bold',
+    marginLeft: 10,
+  },
+  accountBalanceContainer: {flexDirection: 'row', alignItems: 'center'},
+  currentBalanceHeading: {fontSize: 12, color: COLORS.textWhite},
+  balanceParentContainer: {
+    height: 75,
+    justifyContent: 'space-between',
+    marginTop: 40,
+  },
+  transactionModal: {
+    height: '55%',
+    width: deviceWidth,
+    alignSelf: 'center',
+    backgroundColor: COLORS.modalBlue,
+    borderTopLeftRadius: 40,
+    borderTopRightRadius: 40,
+    position: 'absolute',
+    bottom: 0,
+    alignItems: 'center',
+    paddingTop: 15,
+  },
+  dragMarker: {
+    backgroundColor: COLORS.lightBlueMarker,
+    height: 8,
+    width: 64,
+    borderRadius: 10,
+  },
+  dropdownContainer: {
+    flexDirection: 'row',
+    height: 55,
+    width: '92%',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 10,
+  },
+  modalHeadingText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: COLORS.textWhite,
+  },
+  dropdownTextLeft: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: COLORS.lightBlueMarker,
+  },
+  dropdownTextRight: {
+    fontSize: 14,
+    color: COLORS.textWhite,
+    marginHorizontal: 8,
+  },
+  dropdownTextContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  transactionCardContainer: {
+    height: 86,
+    width: deviceWidth,
+    alignItems: 'center',
+    paddingHorizontal: 15,
+    flexDirection: 'row',
+  },
+  userNameText: {
+    color: COLORS.transactionTextColor,
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  transactionStatusContainer: {
+    height: 28,
+    width: 92,
+    marginTop: 8,
+    borderRadius: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  transactionStatusIconContainer: {
+    height: 18,
+    width: 18,
+    borderRadius: 10,
+    backgroundColor: COLORS.textWhite,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 6,
+  },
+  transactionAmountText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    position: 'absolute',
+    right: 15,
+  },
+  statusText: {
+    color: COLORS.textWhite,
+    fontWeight: '600',
+    fontSize: 12,
+  },
+  headerContainer: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 10,
+    marginTop: 50,
+  },
+  leftHeaderCircle: {
+    backgroundColor: COLORS.darkBlue2,
+    height: 45,
+    width: 45,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  headerGreetingText: {
+    fontSize: 20,
+    fontWeight: '500',
+    color: COLORS.textWhite,
+    marginLeft: 20,
+  },
+  headerButtonContainer: {position: 'absolute', right: 0},
+});
+export default styles;

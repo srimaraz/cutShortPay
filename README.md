@@ -1,4 +1,4 @@
-#Cutshort Pay - A demo Payment App
+##Cutshort Pay - A demo Payment App
 
 ## Table of Contents
 
@@ -27,18 +27,24 @@
 
 ## Screenshots
 
-**iOS:**
+##iOS
 
 ![Splash Screen](screenshots/ios/iosSplash.png?raw=true 'Splash')
+
 ![Home Screen](screenshots/ios/iosHome.png?raw=true 'Home')
+
 ![Send Money](screenshots/ios/iosSend.png?raw=true 'Send')
+
 ![Request Money](screenshots/ios/iosRequest.png?raw=true 'Requested Money')
 
-**Android:**
+##Android:
 
 ![Splash Screen Android](screenshots/android/androidSplash.png?raw=true 'Splash-Android')
+
 ![Home Screen Android](screenshots/android/androidHome.png?raw=true 'Home-Android')
+
 ![Send Screen Android](screenshots/android/androidSend.png?raw=true 'Send-Android')
+
 ![Request Screen Android](screenshots/android/androidRequest.png?raw=true 'Request-Android')
 
-#UI Mockup by vlad Iyulin :https://www.figma.com/community/file/1011645856765959056
+##UI Mockup by vlad Iyulin :https://www.figma.com/community/file/1011645856765959056

@@ -27,7 +27,7 @@
 
 ## Screenshots
 
-##iOS
+## iOS
 
 ![Splash Screen](screenshots/ios/iosSplash.png?raw=true 'Splash')
 
@@ -37,7 +37,7 @@
 
 ![Request Money](screenshots/ios/iosRequest.png?raw=true 'Requested Money')
 
-##Android:
+## Android:
 
 ![Splash Screen Android](screenshots/android/androidSplash.png?raw=true 'Splash-Android')
 
@@ -47,4 +47,4 @@
 
 ![Request Screen Android](screenshots/android/androidRequest.png?raw=true 'Request-Android')
 
-##UI Mockup by vlad Iyulin :https://www.figma.com/community/file/1011645856765959056
+## UI Mockup by vlad Iyulin :https://www.figma.com/community/file/1011645856765959056
